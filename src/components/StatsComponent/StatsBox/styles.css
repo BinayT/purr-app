@@ -1,0 +1,26 @@
+.stats__box{
+    border: 0.1px solid rgb(243, 233, 233);
+    height:70px;
+    width:280px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    margin-right:1em;
+    margin-bottom:1em;
+}
+
+.stats__info{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.stats__count{
+    text-align:end;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.stats__actionText{
+    font-size: small;
+}

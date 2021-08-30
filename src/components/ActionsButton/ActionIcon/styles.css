@@ -1,0 +1,30 @@
+.actionIcon__button{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:0.5px;
+}
+
+.action__iconContainer{
+    width:70px;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.action__icon{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+}
+
+.action__name{
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+}

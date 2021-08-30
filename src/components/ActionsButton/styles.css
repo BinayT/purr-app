@@ -1,0 +1,6 @@
+.action__buttonContainer{
+    margin-top:0.5em;
+    height:70px;
+    display:flex;
+    justify-content:space-around;
+}

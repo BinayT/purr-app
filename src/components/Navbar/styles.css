@@ -1,0 +1,23 @@
+.navbar{
+    height:65px;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+}
+
+.navbar-logo{
+    display:flex;
+    align-items: center;
+    width: 1000px;
+}
+
+.navbar-logo > * {
+    margin-left: 5em;
+}
+
+@media (max-width: 411px) {
+    .navbar-logo > * {
+        margin-left: 3em;
+    }
+}

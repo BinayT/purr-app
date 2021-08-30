@@ -1,0 +1,15 @@
+.userAction_buttonContainer{
+    margin-left:2em;
+}
+
+@media (min-width: 411px) and (max-width: 1000px) {
+    .userAction_buttonContainer{
+        margin-left:4.5em;
+    }
+}
+
+@media (max-width: 411px) {
+    .userAction_buttonContainer{
+        margin-left:1.5em;
+    }
+}

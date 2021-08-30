@@ -1,0 +1,21 @@
+.container__categoryTitle{
+    justify-content:flex-start;
+}
+
+.cat__actionQuestion{
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom:0.5em;
+}
+
+@media (max-width: 685px) {
+    .container__categoryTitle{
+        margin-left: 5em;
+    }
+}
+
+@media (max-width: 411px) {
+    .container__categoryTitle{
+        margin-left: 3em;
+    }
+}

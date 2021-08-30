@@ -1,0 +1,35 @@
+.container{
+    width:1000px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.container__title{
+    flex-basis:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:1em;
+}
+
+.container > * {
+    margin-left: 5em;
+}
+
+@media (max-width: 685px) {
+    .container > * {
+        margin-left: 6em;
+    }
+}
+
+@media (max-width: 540px) {
+    .container > * {
+        margin-left: 3em;
+    }
+}
+
+@media (max-width: 411px) {
+    .container > * {
+        margin-left: 0em;
+    }
+}

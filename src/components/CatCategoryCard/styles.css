@@ -1,0 +1,26 @@
+.card__container{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    margin-bottom: 2em;
+    background-size:cover;
+    overflow: hidden;
+}
+
+.card_categoryImageContainer{
+    height: 200px;
+    width: 250px;
+    background-size:cover;
+    position: relative;
+}
+
+.card__categoryName{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left:10%;
+    top:80%;
+    border-radius: 9px;
+    font-weight: bolder;
+    background-color:#FFF;
+}

@@ -1,0 +1,9 @@
+.main__container{
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+
+.main__container > * {
+    margin-top: 1em;
+}
