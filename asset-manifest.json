@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/purr-app/static/css/main.54caf0e0.chunk.css",
-    "main.js": "/purr-app/static/js/main.691aecd5.chunk.js",
-    "main.js.map": "/purr-app/static/js/main.691aecd5.chunk.js.map",
+    "main.js": "/purr-app/static/js/main.651440b3.chunk.js",
+    "main.js.map": "/purr-app/static/js/main.651440b3.chunk.js.map",
     "runtime-main.js": "/purr-app/static/js/runtime-main.91427f9c.js",
     "runtime-main.js.map": "/purr-app/static/js/runtime-main.91427f9c.js.map",
     "static/js/2.de6f6c92.chunk.js": "/purr-app/static/js/2.de6f6c92.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.91427f9c.js",
     "static/js/2.de6f6c92.chunk.js",
     "static/css/main.54caf0e0.chunk.css",
-    "static/js/main.691aecd5.chunk.js"
+    "static/js/main.651440b3.chunk.js"
   ]
 }
