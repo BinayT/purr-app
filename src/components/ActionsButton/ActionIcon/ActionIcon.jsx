@@ -1,6 +1,6 @@
 import {useDispatch} from 'react-redux'
 
-import {setUserResponse} from '../../../actions/userActions'
+import {setUserResponse} from '../../../redux/actions/userActions'
 import {customTextColorCSS, customBorderCSS} from '../../../utils/customCSS'
 import './styles.css'
 

@@ -1,7 +1,7 @@
 import {ReactComponent as Pet} from '../../assets/Pet.svg'
 import {ReactComponent as DontPet} from '../../assets/DontPet.svg'
 import {ReactComponent as Skip} from '../../assets/Skip.svg'
-import {PET, DONTPET, SKIP} from '../../constants/userConstants'
+import {PET, DONTPET, SKIP} from '../../redux/constants/userConstants'
 
 import ActionIcon from './ActionIcon/ActionIcon'
 

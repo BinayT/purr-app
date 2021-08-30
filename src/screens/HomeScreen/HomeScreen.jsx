@@ -2,9 +2,9 @@ import {useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import CatCatagoryCard from '../../components/CatCategoryCard/CatCatagoryCard'
-import {getCatCategories} from '../../actions/catActions'
-import {REMOVE_CAT_IMAGES, REMOVE_SELECTED_CATEGORY} from '../../constants/catConstants'
-import {RESET_USERSTATS} from '../../constants/userConstants'
+import {getCatCategories} from '../../redux/actions/catActions'
+import {REMOVE_CAT_IMAGES, REMOVE_SELECTED_CATEGORY} from '../../redux/constants/catConstants'
+import {RESET_USERSTATS} from '../../redux/constants/userConstants'
 import './styles.css'
 
 const HomeScreen = () => {

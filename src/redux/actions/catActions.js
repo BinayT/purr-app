@@ -13,7 +13,7 @@ import {
     REMOVE_CAT_IMAGES
 } from '../constants/catConstants'
 import {RESET_USERSTATS} from '../constants/userConstants'
-import {baseURL, config, categoryImageFetcher} from '../utils/apiUtils'
+import {baseURL, config, categoryImageFetcher} from '../../utils/apiUtils'
 
 export const getCatCategories = () => async(dispatch) => {
     try {

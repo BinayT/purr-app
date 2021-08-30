@@ -1,7 +1,7 @@
 import {useDispatch, useSelector} from 'react-redux'
 import {Link} from 'react-router-dom'
 
-import {getCatImages, restartSameCategory} from '../../../actions/catActions'
+import {getCatImages, restartSameCategory} from '../../../redux/actions/catActions'
 import {statsActionButton, customTextColorCSS} from '../../../utils/customCSS'
 
 import './styles.css'

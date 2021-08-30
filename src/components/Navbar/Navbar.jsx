@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import {useDispatch} from 'react-redux'
 
-import {REMOVE_CAT_IMAGES, REMOVE_SELECTED_CATEGORY} from '../../constants/catConstants'
+import {REMOVE_CAT_IMAGES, REMOVE_SELECTED_CATEGORY} from '../../redux/constants/catConstants'
 import {ReactComponent as Logo} from '../../assets/Logo.svg'
 import './styles.css'
 

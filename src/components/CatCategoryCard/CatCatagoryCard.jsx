@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux'
 import {Link} from 'react-router-dom'
 
-import {getCatImages} from '../../actions/catActions'
+import {getCatImages} from '../../redux/actions/catActions'
 import './styles.css'
 
 const CatCatagoryCard = ({catData}) => {
