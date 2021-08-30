@@ -1,7 +1,9 @@
 import { useDispatch, useSelector } from 'react-redux'
 import {Link} from 'react-router-dom'
+import Loader from "react-loader-spinner"
 
 import {getCatImages} from '../../redux/actions/catActions'
+import {loaderContainer} from '../../utils/customCSS'
 import './styles.css'
 
 const CatCatagoryCard = ({catData}) => {
@@ -14,7 +16,10 @@ const CatCatagoryCard = ({catData}) => {
     return (
         <div className="card__container">
         {
-        loading ? <p>Loading...</p> :
+        loading ? <div style={loaderContainer()} className="card_categoryImageContainer">
+        <Loader type="Watch" color="#00BFFF" height={40} width={40}/>
+        </div>
+        :
         catCategoryImageList && (
             <Link to='/cats' onClick={()=> getSelectedCategoryImages()}>
                 <div className="card_categoryImageContainer" style={{backgroundImage:`url(${imageURL})`}}>

@@ -1,7 +1,9 @@
-import {useState, useEffect} from 'react'; 
+import {useState, useEffect} from 'react'
 import {useSelector, useDispatch} from 'react-redux'
+import Loader from "react-loader-spinner"
 
 import ActionsButton from '../ActionsButton/ActionsButton'
+import {loaderContainer} from '../../utils/customCSS'
 import './styles.css'
 
 const CatImageCard = ({history}) => {
@@ -20,7 +22,10 @@ const CatImageCard = ({history}) => {
     return (
         <>
             {
-            loading? <p>Loading...</p> :
+            loading? <div style={loaderContainer()} className="catAction__container">
+                <Loader type="Watch" color="#00BFFF" height={50} width={50}/>
+            </div>
+            :
             catImagesList && catImagesList[catIndex] && (
             <div className="catAction__container">
                 <div className="catAction__imageContainer" style={{backgroundImage: `url(${catImagesList[catIndex].url})`}}></div>

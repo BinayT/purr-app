@@ -12,3 +12,11 @@ export const statsActionButton = (bgColor, textColor) =>{
         border: textColor === 'black' && `0.5px solid black`
     }
 }
+
+export const loaderContainer = () => {
+    return {
+        display:'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
+}
