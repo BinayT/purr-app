@@ -2,16 +2,6 @@
 
 This project was made with the help of [The Cat API](https://thecatapi.com/).
 
-## How the application works.
-
-After entering the application, it fetches cat category's list as well as images for each cat's category. After they are fetched it stores them in global state and renders `CatCategoryCard` component that have the name of category as well as image of it for all the avilable categories.
-
-After clicking on the desired category, it then with the help of `id` of the category stored in global state, fetches 10 images for the selected category. We are then sent to another page `/cats` and `CatImageCard` component is rendered with the first image of the fetched images list. It also contains `ActionButtons` component that have all the avilable actions for us. We can either pet, not pet or skip the cat and the container renders photos of different cats there till there is no more left.
-
-After we choose the action for the last cat, we are sent to yet another page `/stats` that contains the info of what we did to the 10 cats. It renders `StatsComponent` along with data that was being stored the whole time about our actions. It also have 2 buttons from `Button` component, which allows us to either restart on the same category or start over with a new category.
-
-If we choose the same category all the details of the cat as well as our actions (pet, not pet, skip) are reset and it renders newly fetched images from the API. If we choose new category, we are then sent to the home page with everything reset expect cat category list and they images from the global state.
-
 ## Getting started with the application.
 
 To get started with the application, you can follow these commands by opening a terminal in your home screen or the location of your desire:
@@ -43,6 +33,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## How the application works.
+
+After entering the application, it fetches cat category's list as well as images for each cat's category. After they are fetched it stores them in global state and renders `CatCategoryCard` component that have the name of category as well as image of it for all the avilable categories.
+
+After clicking on the desired category, it then with the help of `id` of the category stored in global state, fetches 10 images for the selected category. We are then sent to another page `/cats` and `CatImageCard` component is rendered with the first image of the fetched images list. It also contains `ActionButtons` component that have all the avilable actions for us. We can either pet, not pet or skip the cat and the container renders photos of different cats there till there is no more left.
+
+After we choose the action for the last cat, we are sent to yet another page `/stats` that contains the info of what we did to the 10 cats. It renders `StatsComponent` along with data that was being stored the whole time about our actions. It also have 2 buttons from `Button` component, which allows us to either restart on the same category or start over with a new category.
+
+If we choose the same category all the details of the cat as well as our actions (pet, not pet, skip) are reset and it renders newly fetched images from the API. If we choose new category, we are then sent to the home page with everything reset expect cat category list and they images from the global state.
+
 
 ## Screens
 
