@@ -92,11 +92,11 @@ Global application state managment library Redux is used in this project as well
 
 ## 3rd Party Libraries
 
-- axios - To make HTTP requests
-- gh-pages - To public this react app to Github to get a link to share.
-- react-redux - To use redux with react.
-- react-loader-spinner - Spinner component while the app fetches data.
-- react-router-dom - For react routing.
-- redux - For using redux.
-- redux-devtools-extension - To see the redux state on the browser
-- redux-thunk - To write action creators that return a function instead of an action.
+- `axios` - To make HTTP requests
+- `gh-pages` - To public this react app to Github to get a link to share.
+- `react-redux` - To use redux with react.
+- `react-loader-spinner` - Spinner component while the app fetches data.
+- `react-router-dom` - For react routing.
+- `redux` - For using redux.
+- `redux-devtools-extension` - To see the redux state on the browser
+- `redux-thunk` - To write action creators that return a function instead of an action.
