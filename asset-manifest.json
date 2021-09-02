@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/purr-app/static/css/main.cb66efca.chunk.css",
-    "main.js": "/purr-app/static/js/main.e19121e9.chunk.js",
-    "main.js.map": "/purr-app/static/js/main.e19121e9.chunk.js.map",
+    "main.css": "/purr-app/static/css/main.d481cb8f.chunk.css",
+    "main.js": "/purr-app/static/js/main.1d369a9b.chunk.js",
+    "main.js.map": "/purr-app/static/js/main.1d369a9b.chunk.js.map",
     "runtime-main.js": "/purr-app/static/js/runtime-main.1b0078ab.js",
     "runtime-main.js.map": "/purr-app/static/js/runtime-main.1b0078ab.js.map",
     "static/js/2.a3beb2ff.chunk.js": "/purr-app/static/js/2.a3beb2ff.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.38aa19eb.chunk.js": "/purr-app/static/js/3.38aa19eb.chunk.js",
     "static/js/3.38aa19eb.chunk.js.map": "/purr-app/static/js/3.38aa19eb.chunk.js.map",
     "index.html": "/purr-app/index.html",
-    "static/css/main.cb66efca.chunk.css.map": "/purr-app/static/css/main.cb66efca.chunk.css.map",
+    "static/css/main.d481cb8f.chunk.css.map": "/purr-app/static/css/main.d481cb8f.chunk.css.map",
     "static/js/2.a3beb2ff.chunk.js.LICENSE.txt": "/purr-app/static/js/2.a3beb2ff.chunk.js.LICENSE.txt",
     "static/media/DontPet.36f9ec19.svg": "/purr-app/static/media/DontPet.36f9ec19.svg",
     "static/media/Logo.197908c4.svg": "/purr-app/static/media/Logo.197908c4.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.1b0078ab.js",
     "static/js/2.a3beb2ff.chunk.js",
-    "static/css/main.cb66efca.chunk.css",
-    "static/js/main.e19121e9.chunk.js"
+    "static/css/main.d481cb8f.chunk.css",
+    "static/js/main.1d369a9b.chunk.js"
   ]
 }
