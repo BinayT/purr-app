@@ -2,7 +2,7 @@ export const baseURL = 'https://api.thecatapi.com/v1'
 
 export const config = {
     headers:{
-        'x-api-key' : '26be2bb2-7860-4c85-937d-13e8c705a202'
+        'x-api-key' : 'live_TFbq7sAkKyI1p3hAIemsPpWoqFaXv8cgbpie99GmnYOtc0GHvW1skPnSzE94Ey2j'
     }
 }
 
