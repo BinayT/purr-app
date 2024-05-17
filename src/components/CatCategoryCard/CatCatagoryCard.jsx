@@ -10,7 +10,7 @@ const CatCatagoryCard = ({catData}) => {
     const dispatch = useDispatch();
     const catCategoryImage = useSelector(state=>state.catCategoryImage)
     const {loading, catCategoryImageList} = catCategoryImage
-    let imageURL = catCategoryImageList && catCategoryImageList.filter(el=>el[0].categories[0].id === catData.id)[0][0].url
+    let imageURL = catCategoryImageList && catCategoryImageList.filter(el=>el.catID === catData.id)[0][0].url
 
     const getSelectedCategoryImages = () => dispatch(getCatImages(catData))
     return (

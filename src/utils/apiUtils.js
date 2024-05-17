@@ -7,5 +7,13 @@ export const config = {
 }
 
 export const categoryImageFetcher = async (id) => {
-    return (await fetch(`${baseURL}/images/search?category_ids=${id}`)).json()
+    const response = await fetch(`${baseURL}/images/search?category_ids=${id}`);
+    const jsonData = await response.json();
+
+    const modifiedData = {
+        catID: id,
+        ...jsonData
+    };
+
+    return modifiedData;
 }
